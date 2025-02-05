@@ -30,6 +30,4 @@ jobs:
         run: |
           rm -rd .git
           rm -rd .github
-          rm renovate.json
-          rm dataset-metadata.json
-          huggingface-cli upload MH0386/seismic_data . --repo-type dataset
+          huggingface-cli upload MH0386/toys_images . --repo-type dataset
