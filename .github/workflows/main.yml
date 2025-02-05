@@ -30,4 +30,5 @@ jobs:
         run: |
           rm -rd .git
           rm -rd .github
+          rm renovate.json
           huggingface-cli upload MH0386/toys_images . --repo-type dataset
